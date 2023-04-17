@@ -1,0 +1,133 @@
+.caja{
+    flex-wrap: wrap;
+    margin: auto;
+    width: 550px;
+    height: 550px;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.caja1{
+    width: 183.2px;
+    height: 183.2px;
+    background-color: red;
+    margin-left: 367px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caja2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 183.2px;
+    height: 183.2px;
+    background-color: blue;
+    margin-left: 367px;
+
+}
+
+.caja3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 183.6px;
+    height: 183.6px;
+    background-color: green;
+    margin-left: 367px;
+    
+
+}
+
+span{
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.titulo h1 {
+    display: inline-flex;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.caja4{
+    float: left;
+    display: flex;
+    width: 183.2px;
+    height: 183.2px;
+    background-color: red;
+    margin-top: 200px;
+}
+
+.caja5{
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 183.2px;
+    height: 183.2px;
+    background-color: blue;
+    margin-top: 200px;
+}
+
+.caja6{
+    float: left;
+    display: flex;
+    width: 183.6px;
+    height: 183.6px;
+    background-color: green;
+    margin-top: 200px;
+}
+
+.caja7{
+    justify-content: space-between;
+    display: inline-block;
+    width: 100.2px;
+    height: 100.2px;
+    background-color: red;
+    margin-top: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.caja8{
+    justify-content: space-between;
+    display: inline-block;
+    width: 100.2px;
+    height: 100.2px;
+    background-color: blue;
+    margin-top: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.caja9{
+    justify-content: space-between;
+    display: inline-block;
+    width: 100.6px;
+    height: 100.6px;
+    background-color: green;
+    margin-top: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
