@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cambiar color de fondo</title>
+  <style>
+    .cuadrado {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    #cuadrado1 {
+      background-color: red;
+    }
+
+    #cuadrado2 {
+      background-color: green;
+    }
+
+    #cuadrado3 {
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="cuadrado" id="cuadrado1"></div>
+  <div class="cuadrado" id="cuadrado2"></div>
+  <div class="cuadrado" id="cuadrado3"></div>
+
+  <script>
+    var cuadrado1 = document.getElementById('cuadrado1');
+    var cuadrado2 = document.getElementById('cuadrado2');
+    var cuadrado3 = document.getElementById('cuadrado3');
+
+    cuadrado1.addEventListener('click', function() {
+      document.body.style.backgroundColor = 'red';
+    });
+
+    cuadrado2.addEventListener('click', function() {
+      document.body.style.backgroundColor = 'green';
+    });
+
+    cuadrado3.addEventListener('click', function() {
+      document.body.style.backgroundColor = 'blue';
+    });
+  </script>
+</body>
+</html>

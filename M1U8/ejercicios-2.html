@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contador de caracteres</title>
+</head>
+<body>
+  <textarea id="texto" rows="4" cols="50"></textarea>
+  <p>Caracteres restantes: <span id="contador"></span></p>
+
+  <script>
+    var textarea = document.getElementById('texto');
+    var contador = document.getElementById('contador');
+    var limiteCaracteres = 100;
+
+    textarea.addEventListener('input', function() {
+      var texto = textarea.value;
+      var caracteresRestantes = limiteCaracteres - texto.length;
+      contador.textContent = caracteresRestantes;
+    });
+  </script>
+</body>
+</html>
