@@ -1,0 +1,327 @@
+body {
+    margin: auto;
+    padding: auto;
+    font-family: 'Arial', sans-serif; 
+    background: #ffffff;
+    
+    
+}
+
+
+.part1 {
+  background: linear-gradient(to right, #2C3E50, #4CA1AF);
+  height: 150px;
+  position: relative;
+}
+
+.part1 nav {
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.part1 nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.part1 nav li {
+  margin: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .part1 nav li {
+    margin: 10px;
+    font-size: 14px;
+  }
+}
+
+.titulo2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+.titulo2 h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  margin: 0 10px;
+}
+
+
+
+.ico{
+  width: 7%;
+  height: 7%;
+}
+
+.discord{
+  margin: auto;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  width: 300px;
+
+}
+
+
+.titulo{
+  width: 600px;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  color: black;
+  border-radius: 25px;
+}
+
+.titulo2 {
+  width: 800px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  border-radius: 25px;
+}
+
+#title {
+    animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  li.sin-puntos {
+    list-style: none;
+  }
+  
+footer a{
+text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 204, 255);
+}
+
+.img-container{
+  text-align: center;
+}
+
+.img-px{
+  padding: 50px;
+  width: 1000px;
+  display: block;
+  margin: auto;
+  border-radius: 100px;
+}
+
+.pasos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  gap: 50px;
+  background-color: #f9f4f4;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.paso {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  position: relative;
+}
+
+.paso h2 {
+  font-size: 36px;
+  margin: 0;
+  background-color: #c9e6e2;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paso p {
+  font-size: 13px;
+  margin: 10px 0 0 0;
+  text-align: center;
+  color: #555;
+}
+
+.paso::before {
+  content: '';
+  position: absolute;
+  left: -50%;
+  top: 30%;
+}
+
+
+
+
+
+
+
+/* Estilos generales del footer */
+footer {
+  background: linear-gradient(to right, #2C3E50, #4CA1AF);
+  color: #fff;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* Estilos para la lista de redes sociales */
+.redes-sociales h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.redes-sociales ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.redes-sociales li {
+  margin-bottom: 0.5rem;
+}
+
+.redes-sociales li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Estilos para la lista de contacto */
+.contacto h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.contacto ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacto li {
+  margin-bottom: 0.5rem;
+}
+
+.contacto li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Estilos para la clase "no-dots" */
+.no-dots {
+  list-style: none;
+}
+
+
+.ico{
+  width: 5%;
+  height: 5%;
+  margin: 2px;
+}
+
+nav ul li:hover {
+  color: white; /* cambia el fondo cuando se hace hover */
+}
+
+nav ul li:hover a {
+  color: white; /* cambia el color del texto cuando se hace hover */
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  margin: 25px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #18c0c0;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #38b8b8;
+}
+
+
+
+.reglas{
+  background-color: #e3e3e3;
+  margin: 135px;
+  padding: 85px;
+  border-radius: 15px;
+  font-size: 2vh;
+}
+
+
