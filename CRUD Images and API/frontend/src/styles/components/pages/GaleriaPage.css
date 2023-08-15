@@ -1,0 +1,30 @@
+.galeria {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
+
+.cuadrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5rem;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.32) 0%, rgba(255, 255, 255, 1) 20%);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 5rem;
+}
+
+.cuadrado img {
+    border-radius: 5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

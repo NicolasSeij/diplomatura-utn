@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    background-color: #b89fab;
+}
+.link{
+    height: 5rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.link a{
+    text-align: none;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.link:hover:not(h1){
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.link a.activo{
+    color: #C4387B;
+    text-align: none;
+    font-weight: 900;
+    text-decoration: double;
+}
+

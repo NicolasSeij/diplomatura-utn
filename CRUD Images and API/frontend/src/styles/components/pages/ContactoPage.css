@@ -1,0 +1,53 @@
+h2{
+    text-align: center;
+    margin: 5rem 0;
+}
+hr{
+    width: 50%;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin: 13rem 0 15em 0;
+}
+.form-row{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+    width: 80rem;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-input label{
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.form-input input{
+    height: 3.8rem;
+    border-radius: 1rem;
+}
+
+.form-input textarea{
+    height: 15rem;
+    resize: none;
+    overflow: scroll;
+    border-radius: 1rem;
+
+}
+
+.form-submit{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.form-submit input{
+    width: 90%;
+    
+}

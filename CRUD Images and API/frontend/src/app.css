@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    position: relative;
+}
+
+p {
+    font-size: 2rem;
+    color: black;
+}
+
+.contenedor {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+    text-shadow: -5px -5px 5px #aaa;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+.boton {
+    width: 15rem;
+    height: 5rem;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 700;
+    border-bottom: 0.5rem solid #a08800;
+    text-transform: uppercase;
+
+    background: linear-gradient(to right, #c4387b 50%, #fbd80a 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.4s ease-out !important;
+
+    -webkit-box-shadow: -50px -50px 0px -30px rgba(0, 0, 0, 0), 1px 17px 16px -10px rgba(0, 0, 0, 0.28);
+    box-shadow: -50px -50px 0px -30px rgba(0, 0, 0, 0), 1px 17px 16px -10px rgba(0, 0, 0, 0.28);
+}
+
+.boton:hover {
+    color: white;
+    background-position: left bottom !important;
+    border-bottom: 0.5rem solid #852654 !important;
+    transform: scale(1.1) !important;
+}
